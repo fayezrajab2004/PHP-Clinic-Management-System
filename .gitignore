@@ -1,0 +1,9 @@
+hospital/
+
+*.frm
+*.ibd
+*.opt
+
+.vscode/
+.DS_Store
+Thumbs.db

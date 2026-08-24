@@ -1,0 +1,58 @@
+body {
+    background-image: url("../../images/pharmacybackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+center {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 50px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 50px;
+
+}
+
+button {
+    padding: 20px 30px;
+    margin: 25px;
+    width: 500px;
+    border: none;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:nth-of-type(1) {
+    background-color: #28A745;
+}
+
+button:nth-of-type(2) {
+    background-color: #17A2B8;
+}
+
+button:nth-of-type(3) {
+    background-color: crimson;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+

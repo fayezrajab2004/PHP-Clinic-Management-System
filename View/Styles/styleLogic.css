@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../../images/hospitalbackground.jpg");  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    text-align: center;
+}
+
+.login-container .logo-container {
+    margin-bottom: 20px;
+}
+
+.login-container .logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.login-container h2 {
+    margin: 10px;
+    color: #00e5ce;
+    font-size: 40px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.register-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 30px;
+    background-color: #28a745;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.register-button a:hover {
+    background-color: #218838;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+.error-message, .success-message {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}

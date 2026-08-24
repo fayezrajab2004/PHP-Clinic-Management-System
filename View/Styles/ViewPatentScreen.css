@@ -1,0 +1,95 @@
+body {
+    background-image: url("../../images/phBackground.jpg");  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.delete-btn {
+    background-color: crimson;
+}
+
+.update-btn {
+    background-color: chartreuse;
+}
+
+.add-drug-btn {
+    background-color: cyan;
+    color: black;
+}
+
+.back-btn {
+    background-color: #007BFF;
+}
+
+.message {
+    color: green;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}
